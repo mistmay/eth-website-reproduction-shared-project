@@ -50,6 +50,7 @@ header {
 }
 
 nav {
+    z-index: 2;
     padding: 15px 32px;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -281,6 +282,8 @@ header>section p {
 /* ---------------------------------------------"container,h1,h2,span,MUST BE EQUAL IN ALL THE BRANCH-------------------------------------------------------------------- */
 .main_container{
     display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .main_container2nd_layout{
