@@ -6,7 +6,6 @@ body {
 }
 
 h1,
-h2,
 p {
     margin: 0;
 }
@@ -742,4 +741,146 @@ header>section p {
 .linkTable {
     color: rgba(0, 0, 0, 0.884);
     text-decoration: none;
+}
+
+#ethereum-today {
+    background-color: rgba(252, 252, 252, 255);
+    padding: 5.55vh 2rem;
+}
+
+#ethereum-today>h2 {
+    font-size: 32px;
+    margin: 0 0 2.96vh 0;
+}
+
+#ethereum-today>p {
+    font-size: 20px;
+    margin: 0;
+}
+
+#svg-container {
+    background-color: white;
+    margin-top: 5.55vh;
+    width: 100%;
+    height: 40rem;
+    font-family: SFMono-Regular, Consolas, "Roboto Mono", "Droid Sans Mono", "Liberation Mono", Menlo, Courier, monospace;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.quarters {
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.svg-relative {
+    position: relative;
+    width: 100%;
+    height: 73%;
+}
+
+.svg-text {
+    width: 100%;
+    height: 27%;
+    padding: 1.85vh 0;
+}
+
+.svg-text>span {
+    font-size: 20px;
+    padding: 0 1.3vw;
+}
+
+.svg-text>p {
+    font-size: 16px;
+    margin-top: 1.85vh;
+    padding: 0 1.3vw;
+}
+
+.svg-graph {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.svg-graph svg {
+    width: 100%;
+    min-height: 207px;
+    max-height: 100%;
+}
+
+.svg-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    width: 100%;
+    padding-bottom: 1.85vh;
+}
+
+.svg-amount>span {
+    font-size: 52.32px;
+    font-weight: 600;
+}
+
+.svg-amount {
+    align-self: flex-start;
+    -webkit-align-self: flex-start;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    gap: 1.04vw;
+    padding-left: 1.3vw;
+}
+
+.svg-buttons {
+    align-self: flex-end;
+    -webkit-align-self: flex-end;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    padding-right: 1.3vw;
+}
+
+.svg-buttons>button {
+    padding: 2px 15px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.svg-buttons>button:focus {
+    background-color: rgba(232, 232, 252, 255);
+}
+
+.svg-buttons>button:hover {
+    cursor: pointer;
 }
