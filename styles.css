@@ -887,7 +887,7 @@ header>section p {
 
 .title-explore {
     margin-bottom: 50px;
-    text-align: left; 
+    text-align: left;
     font-size: 2rem;
     line-height: 1.4;
     font-weight: 600;
@@ -895,15 +895,15 @@ header>section p {
 
 .position-relative {
     position: relative;
-} 
+}
 
 .linkref-width {
     width: 33.3%;
 }
 
 
-.linkref-width > .inside_card4Box {
-    min-width:auto
+.linkref-width>.inside_card4Box {
+    min-width: auto
 }
 
 .title-contribute {
@@ -912,30 +912,30 @@ header>section p {
     font-weight: 600;
     text-align: left;
 }
+
 #contribute {
-    background: linear-gradient(
-49.21deg
-, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%);
-    
+    background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%);
     display: flex;
-    border-radius: 4px; 
+    border-radius: 4px;
     margin: 8rem 0px 4rem;
     padding: 2rem 4rem;
 }
+
 .subtitle-contribute {
-    
     margin-bottom: 2rem;
     font-size: 20px;
     color: rgb(102, 102, 102);
     font-weight: 400;
 }
-.more-btn { 
+
+.more-btn {
     background-color: rgb(28, 28, 225);
     color: white;
     padding: 0.5rem 0.75rem;
     border-radius: 0.25em;
     margin-right: 10px;
 }
+
 .github-btn {
     color: rgb(51, 51, 51);
     border: 1px solid rgb(51, 51, 51);
@@ -945,6 +945,7 @@ header>section p {
     border-radius: 0.25em;
     text-align: center;
 }
+
 #pt-120 {
     padding-top: 120px;
 }
