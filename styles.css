@@ -398,6 +398,7 @@ header>section p {
     color: rgb(255, 255, 255);
     border: 1px solid rgb(28, 28, 225);
     box-shadow: rgb(210 210 249) 4px 4px 0px 0px;
+    opacity: 0.8;
 }
 
 
@@ -405,9 +406,9 @@ header>section p {
 .sharedContainer {
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 0px inset;
     background: rgb(223 221 221 / 25%);
-    padding: 0rem 0rem 4rem;
     margin-top: 0rem;
-    padding: 1rem 0rem;
+    margin-bottom: 4rem;
+    padding-top: 1rem;
     width: 100%;
 }
 
@@ -415,7 +416,7 @@ header>section p {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     margin-top: 1rem;
 }
 
@@ -467,7 +468,7 @@ header>section p {
     -webkit-box-pack: justify;
     justify-content: space-evenly;
     width: 100%;
-    margin: 0rem;
+    margin: 0rem 0 6rem 0;
 }
 
 .inside_card4Box {
@@ -903,7 +904,11 @@ header>section p {
 
 
 .linkref-width>.inside_card4Box {
-    min-width: auto
+    min-width: auto;
+}
+
+.card-height {
+    height: 100%;
 }
 
 .title-contribute {
@@ -917,7 +922,6 @@ header>section p {
     background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%);
     display: flex;
     border-radius: 4px;
-    margin: 8rem 0px 4rem;
     padding: 2rem 4rem;
 }
 
@@ -928,10 +932,19 @@ header>section p {
     font-weight: 400;
 }
 
+#contribute-buttons {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
 .more-btn {
     background-color: rgb(28, 28, 225);
     color: white;
-    padding: 0.5rem 0.75rem;
+    padding: 0.65rem 0.75rem;
     border-radius: 0.25em;
     margin-right: 10px;
 }
@@ -944,8 +957,34 @@ header>section p {
     font-size: 1rem;
     border-radius: 0.25em;
     text-align: center;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    gap: 10px;
+}
+
+.github-btn:hover {
+    border: 1px solid blue;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px grey;
+    color: blue;
+}
+
+.more-btn:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(28, 28, 225);
+    box-shadow: rgb(210 210 249) 4px 4px 0px 0px;
+    opacity: 0.8;
 }
 
 #pt-120 {
     padding-top: 120px;
+}
+
+#explore {
+    background-color: white;
+    padding: 5.55vh 1.5rem;
 }
