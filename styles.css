@@ -1001,8 +1001,60 @@ header>section p {
 footer {
     width: 80%;
     margin: 0 auto;
+
 }
 
+.robo {
+    font-size: 85%;
+    color: grey;
+}
+
+.stilefooter li{
+    list-style: none;
+    color: grey;
+}
+.stilefooter li a {
+color: grey;
+font-size: 90%;
+}
+
+.stilefooter li a:hover {
+    color: blue;
+    
+}
+.stilefooter {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  
+
+}
+.aggiornamento {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.svg-icons svg{
+    margin-right: 10px;
+    color: grey;
+}
+
+.freccetta::after{
+    content: "↗";
+    padding: 2px;
+
+}
+
+.footer-container {
+    display: flex;
+}
+.stilefooter ul {
+    padding: 0%;
+}
 /* ---------------------------------------Leave media query at the bottom of CSS------------------------------------------------- */
 @media (max-width: 1394px) {
     header {
