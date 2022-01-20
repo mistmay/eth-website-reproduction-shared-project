@@ -7,7 +7,7 @@ body {
 
 h1,
 p {
-    font-family:Helvetica,Arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     margin: 0;
 }
 
@@ -731,7 +731,7 @@ header>section p {
     gap: 0.5rem;
 }
 
-.frontierIntroContainer{
+.frontierIntroContainer {
     background: rgb(232, 232, 252);
     border-bottom: 1px solid;
 }
@@ -1001,6 +1001,66 @@ header>section p {
 footer {
     width: 80%;
     margin: 0 auto;
+
+}
+
+.robo {
+    font-size: 85%;
+    color: grey;
+}
+
+.stilefooter li {
+    list-style: none;
+    color: grey;
+    margin-bottom: 25px;
+}
+
+.stilefooter li a {
+    color: grey;
+}
+
+.stilefooter li a:hover {
+    color: blue;
+
+}
+
+.stilefooter {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.aggiornamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.svg-icons svg {
+    margin-right: 10px;
+    color: grey;
+}
+
+.freccetta::after {
+    content: "↗";
+    padding: 2px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    font-size: 13px;
+}
+
+.stilefooter ul {
+    padding: 0%;
 }
 
 /* ---------------------------------------Leave media query at the bottom of CSS------------------------------------------------- */
